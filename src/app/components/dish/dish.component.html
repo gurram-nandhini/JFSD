@@ -1,0 +1,20 @@
+export class DishComponentTemplate {
+  static getTemplate(): string {
+    return `
+      <div class="dish-card">
+        <img src="{{imageUrl}}" alt="{{name}}" class="dish-image" />
+        <div class="dish-details">
+          <h2 class="dish-name">{{name}}</h2>
+          <p class="dish-description">{{description}}</p>
+          <p class="dish-category"><strong>Category:</strong> {{category}}</p>
+          <p class="dish-price"><strong>Price:</strong> ${{price}}</p>
+          <p class="dish-availability" style="color: {{isAvailable ? 'green' : 'red'}};">
+            {{isAvailable ? 'Available' : 'Not Available'}}
+          </p>
+        </div>
+      </div>
+    `;
+  }
+}
+
+ 

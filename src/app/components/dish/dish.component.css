@@ -1,0 +1,39 @@
+.dish-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 300px;
+  padding: 16px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.dish-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.dish-info {
+  margin-top: 12px;
+}
+
+.dish-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.dish-description {
+  color: #555;
+  margin: 8px 0;
+}
+
+.dish-price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.dish-availability {
+  font-weight: 600;
+  margin-top: 6px;
+}
